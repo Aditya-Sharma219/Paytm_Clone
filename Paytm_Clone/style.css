@@ -1,0 +1,829 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+header {
+    background: #fff;
+    /* width: 100%; */
+    box-shadow: 0 5px 20px rgba(0, 41, 112, .1);
+    position: sticky;
+    top: 0;
+    z-index: 10
+}
+
+/* nav */
+
+nav{
+    margin: 0px 180px;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    position: sticky;
+}
+
+.navcontainer {
+    display:flex;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 12px;
+    margin: 3px;
+    
+}
+
+.navelements{
+    margin: 3px;
+    padding: 12px;
+
+}
+
+
+#signin-button{
+    background-color: #00BAF2;
+    border-radius: 50px;
+    color: white;
+    text-align: center;
+    /* padding: 8px; */
+    margin: 0px 30px;
+    display: flex;
+    align-items: center;
+    /* align-content: center; */
+}
+
+#signin-button:hover{
+    background-color: #073c76;
+}
+
+#signin{
+    margin: 3px;
+    padding: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+/* main */
+
+.rechargee{
+    background-color: rgb(0, 186, 242);
+    padding: 30px 180px 60px 180px;
+    
+    
+}
+
+.rechargeee{
+    display:flex;
+}
+
+.paybills{
+    /* text-align: center; */
+    color: white;
+    font-size: 18px;
+
+}
+
+.paybillsbox{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 30px;
+    padding: 12px;
+}
+
+.paybillsbox:hover{
+    background-color: #2fa8cd;
+    /* border: 2px solid #2fa8cd ; */
+    border-radius: 10px;
+    transition: all 0.1sec ease-in-out ;
+}
+.paybillsbox div {
+    font-weight: 100;
+}
+
+.paybillsbox img{
+    width: 64px;
+}
+
+
+
+
+
+
+
+
+.indias{
+    display: flex;
+    padding: 128px 0px 128px 120px;
+    width: 100%;
+    margin: auto;
+}
+
+#indi{
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 65px;
+    /* width: 700 px; */
+}
+
+#indip{
+    padding-top: 10px;
+    width: 475px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+.img1 img{
+    width: 80px;
+    box-shadow: 0 5px 20px rgba(0, 41, 112, .1);
+    border-radius: 16px;
+}
+
+.img2 img{
+    width: 528px;
+    top: 150px;
+    right: 0;
+}
+
+
+.downloadapp{
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 200px;
+    text-align: center;
+    padding: 3px 0px;
+    box-sizing: border-box;
+    /* align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center; */
+    height: 30px;
+    background-color: black;
+    color: white;
+}
+
+.downloadapp:hover{
+    background-color: white;
+    color: black;
+}
+
+
+
+
+
+
+
+.rechargee2{
+    background-color: #0f4a8a;
+    padding: 30px 180px 60px 180px;
+    
+}
+
+.rechargeee2{
+    display:flex;
+}
+
+.paybills2{
+    /* text-align: center; */
+    color: white;
+    font-size: 18px;
+
+}
+
+.paybillsbox2{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 30px;
+    padding: 12px;
+}
+
+.paybillsbox2:hover{
+    background-color: #073c76;
+    /* border: 2px solid #073c76 ; */
+    border-radius: 10px;
+    transition: all 0.1sec ease-in-out ;
+}
+.paybillsbox2 div {
+    font-weight: 100;
+}
+
+.paybillsbox2 img{
+    width: 64px;
+}
+
+
+
+
+
+#outterdiv{
+    background-color: #f5f7fa;
+}
+
+#payinstruments{
+    /* width: 1170px; */
+    /* margin:  auto 35px; */
+    padding: 100px 00px 00px 110px;
+    font-size: 48px;
+    color: #000;
+    font-weight: 700;
+    line-height: 50px;
+}
+.whitebox1{
+    background-color: white;
+    display: flex;
+    padding: 80px 50px 80px 115px;
+    margin: 20px 115px 80px 115px;;
+    /* height: 80%; */
+    border-radius: 20px;
+    
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+#moneytransfer img{
+    height: 77px;
+    width: auto;
+    padding-right: 12px;
+}
+#upi{
+    width: 175px;
+    /* display: flex; */
+    align-items: center;
+    font-weight: 800;
+}
+#upimt{
+    display: flex;
+    align-items: center;
+}
+.payimg img{
+    width: 539px;
+}
+#payp{
+    padding: 24px 0 30px;
+    display: block;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 26px;
+}
+#payh{
+    margin-top: 48px;
+    width: 390px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46px;
+}
+
+
+.downloadapp{
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 200px;
+    text-align: center;
+    padding: 3px 0px;
+    /* align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center; */
+    height: 30px;
+    background-color: black;
+    color: white;
+}
+
+.downloadapp:hover{
+    background-color: white;
+    color: black;
+}
+
+
+
+
+
+
+.whitebox11{
+    background: #fff;
+    border-radius: 16px;
+    padding: 70px 64px 0;
+    margin-right: 48px;
+    margin-left: 48px;
+    margin-bottom: 100px;
+    position: relative;
+    width: 561px;
+    height: 630px;
+}
+
+#img111{
+    width: auto;
+    height: 77px;
+    cursor: pointer;
+}
+
+
+/* #img111:hover{
+    cursor: pointer;
+} */
+
+#unh{
+    padding-top: 28px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+#unp{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    margin: 20px 0 6px;
+}
+#unh6{
+    margin: 0 0 20px;
+    font-size: 12px;
+    color: #75767f;
+    font-weight: 500;
+    line-height: 18px;
+}
+#knowmore{
+    margin: 0 0 0 4px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    color: #00baf2;
+    cursor: pointer;
+}
+
+#img222{
+    height: 296px;
+    transform: translate(-50%, 2%);
+    position: absolute;
+    bottom: 6px;
+    left: 50%;
+}
+
+#img1111{
+    width: auto;
+    height: 20px;
+}
+
+.box2{
+    display: flex;
+}
+
+#img2222{
+    height: 296px;
+    transform: translate(-50%, 2%);
+    position: absolute;
+    bottom: 6px;
+    left: 50%;
+}
+
+
+
+
+
+
+
+.pib{
+    height: 54px;
+    width: auto;
+    padding-right: 12px;
+}
+
+.insur h1{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 46px;
+}
+
+.insur p{
+    padding: 24px 0 30px;
+    display: block;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 26px;
+    width: 500px;
+}
+
+.insur{
+    display: flex;
+    width: 433px;
+    padding: 80px 30px 40px 100px;
+    align-items: center;
+}
+.ipara{
+    /* width: 500px; */
+    padding-left: 30px;
+}
+
+.car{
+    width: 433px;
+    padding-left: 300px;
+}
+
+.learnmore{
+    background: #002970;
+    padding: 16px 24px;
+    border-radius: 25px;
+    width: 120px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 18px;
+    
+}
+
+.learnmore:hover{
+
+    background: #00baf2;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+
+
+
+
+
+.pmoney{
+    /* background-image: url(gray-spike.avif); */
+    /* background-image: image(gray-spike); */
+    display: flex;
+    /* z-index: 2; */
+    background-image: url(the.jpg);
+    
+}
+.blt{
+    height: 54px;
+    
+ } 
+
+ 
+
+.pamo h1{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 46px;
+    margin-top: 48px;
+    width: 390px;
+}
+.pamo{
+    padding: 24px 200px 30px 100px;
+    /* z-index: 2; */
+}
+.pamo p{
+    font-size: 20px;
+    padding: 24px 0 30px;
+    display: block;
+    font-size: 17px;
+    font-weight: 550;
+    line-height: 26px;
+    width: 500px;
+}
+
+.photo{
+    width: 472px;
+    /* z-index: 1; */
+    padding: 100px;
+}
+
+
+
+
+
+
+
+.fin h1{
+    padding-top: 120px;
+    width: 670px;
+    margin: 0 auto 35px;
+    font-size: 48px;
+    color: #000;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.finimg{
+    width: 212px;
+    padding-bottom: 12px;
+}
+
+.fin h2{
+
+    margin-top: 48px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+
+}
+
+
+.fin p{
+    padding-top: 12px;
+    display: block;
+    width: 515px;
+    margin-bottom: 45px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+
+.finkibigimg{
+    width: 452px;
+    padding:100px 100px 0px 0px;
+    
+    /* z-index: 1; */
+}
+.financial{
+    display: flex;
+    align-items:center;
+    /* justify-items: center; */
+
+}
+
+.fin{
+    padding: 00px 0px 150px 150px;
+}
+
+
+
+
+
+.baharwaladabba{
+    padding-top: 120px;
+    background-color: white;
+}
+
+.bsp{
+    width: 700px;
+    padding: 0px 120px;
+    font-size: 48px;
+    color: #000;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.apo h1{
+    margin-top: 48px;
+    width: 390px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46px;
+}
+
+.apo p{
+    padding: 24px 0 30px;
+    display: block;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 26px;
+    width: 500px;
+}
+
+.apokiimage{
+    width: 433px;
+    padding-left: 207px;
+}
+
+.greybox{
+    display: flex;
+    background-color: rgba(211, 211, 211, 0.427) ;
+    align-items: center;
+    padding: 80px 0px 80px 115px;
+    margin: 80px 80px 80px 115px;
+    border-radius: 15px;
+}
+
+
+
+
+
+
+.bt h1{
+    padding-top: 100px;
+    padding-left: 100px;
+    width: 480px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.btkbox img{
+    width: 100%;
+
+}
+
+.btkbox h1{
+    padding: 40px 0 20px;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 32px;
+    width: 200px;
+}
+
+.btkbox p{  
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    width: 250px;
+}
+
+.btkbox h3{
+    font-size: 15px;
+    color: #000;
+    font-weight: 700;
+    line-height: 30px;
+    cursor: pointer;
+    
+}
+
+.btkadiv{
+    display: flex;
+    width: 100%;
+    margin: 0px 80px;
+    padding-bottom: 150px;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* justify-items: center; */
+}
+
+.btkbox{
+    padding: 30px;
+}
+
+
+
+
+.pm{
+    margin-left: 150px;
+}
+
+.pm img{
+    width: 150px;
+    padding-right: 10px;
+
+}
+
+.pm p{
+    margin-bottom: 0;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    width: 300px;
+}
+
+.pm h3{
+    display: block;
+    padding-top: 10px;
+    font-size: 17px;
+    color: #00baf2;
+    font-weight: 500;
+    line-height: 25px;
+    cursor: pointer;
+}
+
+.pm h3:hover{
+    color: black;
+}
+
+
+.pmkbox img{
+   
+    transition-behavior: normal;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    transition-property: all;
+    width: 145px;
+    height: 158px;
+    cursor: pointer;
+}
+.pmkbox p{
+    padding: 16px 0;
+    display: block;
+    width: 114px !important;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 700;
+}
+.pmkbox{
+    border-radius: 10px;
+    background: #00baf2;
+    opacity: .7;
+    padding: 5px 5px;
+    margin-right: 20px;
+    white-space: normal;
+    text-align: center;
+    cursor: pointer;
+    width: 155px;
+    height: 230px;
+    min-width: 155px;
+    min-height: 230px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.pmkadiv{
+    background: #fff;
+    border-radius: 10px;
+    padding: 60px 0 60px 60px;
+    margin-bottom: 33px;
+    display: flex;
+}
+
+
+
+
+
+#pmkbox img{
+    width: 72px;
+    height: 72px;
+
+}
+#pmkbox h3{
+    font-size: 14px;
+    color: white;
+}
+#pmkbox{
+    align-items: center;
+    justify-content: center;
+    /* justify-items: center; */
+    /* opacity: .7; */
+}
+
+.pmkbox:hover{
+    opacity: 1;
+}
+
+
+
+.footer{
+    background: #f5f7fa;
+    padding: 90px 0 0;
+    padding: 100px;
+}
+
+
+.dp{
+    width: 230px;
+    font-size: 20px;
+    color: #000;
+    font-weight: 600;
+}
+.space{
+    width: 500px;
+}
+.firstline{
+    padding-bottom: 50px;
+    display: flex;
+}
+.firstline img{
+    padding-right: 15px;
+}
+
+
+.secll{
+    color: #00BAF2;
+    height: 12px;
+    width: 100%;
+    background-color: #00BAF2;
+}
+
+.ll{
+    color: #002970;
+    height: 12px;
+    width: 100%;
+    background-color: #002970;
+}
+.ques{
+    padding: 15px 0;
+    cursor: pointer;
+    /* position: relative; */
+    /* display: -ms-flexbox; */
+    /* display: flex; */
+    /* -ms-flex-pack: end; */
+    /* justify-content: flex-end; */
+    /* -ms-flex-direction: row-reverse; */
+    /* flex-direction: row-reverse; */
+    font-size: 16px;
+    color: #505050;
+    font-weight: 700;
+}
+
+.plus{
+    color: #505050;
+    font-weight: 1000; 
+}
+.q{
+    padding: 9px;
+}
